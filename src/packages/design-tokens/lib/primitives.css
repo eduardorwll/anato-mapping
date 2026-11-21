@@ -1,0 +1,59 @@
+:root {
+  /* Neutral Graphite & Alabaster Primitives */
+  --raw-alabaster-50: #ffffff;
+  --raw-alabaster-100: #f6f7f5;
+  --raw-alabaster-200: #eef0ec;
+  --raw-alabaster-300: #e8ebe7;
+  --raw-alabaster-400: #d8ddd6;
+  --raw-alabaster-500: #9aa39d;
+  --raw-alabaster-600: #5a635e;
+  --raw-alabaster-900: #181b1a;
+
+  --raw-graphite-950: #111315;
+  --raw-graphite-900: #16181a;
+  --raw-graphite-850: #1e2124;
+  --raw-graphite-800: #272b2f;
+  --raw-graphite-700: #32373c;
+  --raw-graphite-500: #6c7570;
+  --raw-graphite-400: #98a19c;
+  --raw-graphite-100: #f1f3f2;
+
+  /* Interest Emerald Ramp */
+  --raw-emerald-300: #44c695;
+  --raw-emerald-400: #34b383;
+  --raw-emerald-600: #1f7a5a;
+  --raw-emerald-700: #176147;
+  --raw-emerald-950: #0b1a14;
+
+  /* Destructive */
+  --raw-red-400: #e05a50;
+  --raw-red-600: #c0392b;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Spacing (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+
+  /* Radii */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 0.875rem;
+  --radius-full: 9999px;
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-micro: 120ms;
+  --duration-fast: 150ms;
+  --duration-ui: 190ms;
+  --duration-normal: 200ms;
+  --duration-panel: 260ms;
+}

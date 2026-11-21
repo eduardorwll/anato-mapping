@@ -1,0 +1,48 @@
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  --color-background: var(--raw-alabaster-100);
+  --color-canvas: var(--raw-alabaster-200);
+  --color-card: rgb(255 255 255 / 0.94);
+  --color-card-solid: var(--raw-alabaster-50);
+  --color-muted: var(--raw-alabaster-300);
+  --color-border: var(--raw-alabaster-400);
+  --color-border-strong: #c2cac0;
+
+  --color-foreground: var(--raw-alabaster-900);
+  --color-muted-foreground: var(--raw-alabaster-600);
+  --color-subtle-foreground: #747d78;
+
+  /* Green Interest Accents */
+  --color-interest: var(--raw-emerald-600);
+  --color-interest-hover: var(--raw-emerald-700);
+  --color-interest-soft: hsl(159 59% 30% / 0.12);
+  --color-interest-border: hsl(159 59% 30% / 0.35);
+  --color-interest-foreground: #ffffff;
+
+  --color-destructive: var(--raw-red-600);
+  --color-destructive-soft: hsl(6 63% 46% / 0.12);
+
+  --shadow-hud: 0 12px 32px -8px rgb(24 27 26 / 0.14), 0 2px 6px -1px rgb(24 27 26 / 0.08);
+  --shadow-sm: 0 2px 8px -2px rgb(24 27 26 / 0.1);
+
+  /* Bright Attention Pastel 12 Body Systems Palette (Light / Off-White) */
+  --pin-cat-sistemas: #2dd4bf;
+  --pin-cat-skeletal: #fb6f92;
+  --pin-cat-articular: #22d3ee;
+  --pin-cat-muscular: #ff7f5c;
+  --pin-cat-nervous: #facc15;
+  --pin-cat-cardiovascular: #f43f6e;
+  --pin-cat-respiratory: #38bdf8;
+  --pin-cat-digestive: #fb923c;
+  --pin-cat-urinary: #a3e635;
+  --pin-cat-reproductive: #e879f9;
+  --pin-cat-endocrine: #a78bfa;
+  --pin-cat-lymphatic: #4ade80;
+  --pin-cat-integumentary: #60a5fa;
+
+  --pin-ring-color: #ffffff;
+  --pin-ring-shadow: rgb(24 27 26 / 0.55);
+  --pin-selected-halo: var(--color-interest);
+}

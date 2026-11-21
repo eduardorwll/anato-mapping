@@ -1,0 +1,47 @@
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-background: var(--raw-graphite-900);
+  --color-canvas: var(--raw-graphite-950);
+  --color-card: rgb(30 33 36 / 0.94);
+  --color-card-solid: var(--raw-graphite-850);
+  --color-muted: var(--raw-graphite-800);
+  --color-border: var(--raw-graphite-700);
+  --color-border-strong: #434a50;
+
+  --color-foreground: var(--raw-graphite-100);
+  --color-muted-foreground: var(--raw-graphite-400);
+  --color-subtle-foreground: #7b847f;
+
+  /* Green Interest Accents */
+  --color-interest: var(--raw-emerald-400);
+  --color-interest-hover: var(--raw-emerald-300);
+  --color-interest-soft: hsl(157 55% 45% / 0.16);
+  --color-interest-border: hsl(157 55% 45% / 0.42);
+  --color-interest-foreground: var(--raw-emerald-950);
+
+  --color-destructive: var(--raw-red-400);
+  --color-destructive-soft: hsl(4 70% 60% / 0.16);
+
+  --shadow-hud: 0 18px 40px -10px rgb(0 0 0 / 0.65), 0 2px 8px -2px rgb(0 0 0 / 0.45);
+  --shadow-sm: 0 4px 12px -2px rgb(0 0 0 / 0.45);
+
+  /* Bright Attention Pastel 12 Body Systems Palette (Dark / Graphite) */
+  --pin-cat-sistemas: #5eead4;
+  --pin-cat-skeletal: #ff8fa3;
+  --pin-cat-articular: #67e8f9;
+  --pin-cat-muscular: #ff9e7d;
+  --pin-cat-nervous: #fde047;
+  --pin-cat-cardiovascular: #ff6b8b;
+  --pin-cat-respiratory: #7dd3fc;
+  --pin-cat-digestive: #fdba74;
+  --pin-cat-urinary: #bef264;
+  --pin-cat-reproductive: #f0abfc;
+  --pin-cat-endocrine: #c4b5fd;
+  --pin-cat-lymphatic: #86efac;
+  --pin-cat-integumentary: #93c5fd;
+
+  --pin-ring-color: #ffffff;
+  --pin-ring-shadow: rgb(0 0 0 / 0.78);
+  --pin-selected-halo: var(--color-interest);
+}
