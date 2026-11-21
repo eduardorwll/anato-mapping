@@ -11,15 +11,23 @@ Aplicação desktop multiplataforma (**Linux** e **Windows**) construída com **
 - **Modo Mapeamento & Modo Visualização:** zoom ancorado no cursor, pan (`Espaço + arrastar`), arraste fino de pins, `Camadas` (`Rótulos`, `Números`, `Legenda`, fundo `Tema / Escuro / Xadrez / Claro`), pré-visualização com recorte ampliado 2.5×, metadados, bibliografia e filtros hierárquicos.
 - **Tema Dual Modular:** alternância via botão deslizante entre **Escuro (Grafite)** e **Claro (Off-White)** com acentos verdes para áreas de interesse.
 
-## Desenvolvimento
+## Desenvolvimento e Compilação (Linux & Windows)
 
 ```bash
 npm install
 npm run check          # dependency-cruiser + tsc + Vitest
 cargo test --manifest-path src-tauri/Cargo.toml
 npm run tauri:dev      # executa app desktop nativo
-npm run tauri:build    # gera pacote local
 ```
+
+### Compilar executáveis locais
+
+```bash
+npm run build:linux    # gera .AppImage (e .deb/.rpm se disponíveis) com NO_STRIP=true
+npm run build:windows  # no Windows gera NSIS .exe (PT-BR, per-user); no Linux usa cargo-xwin
+```
+
+Para cross-compilar Windows a partir do Linux (Arch/Ryoku), instale `nsis`, `lld`, `llvm`, o target `x86_64-pc-windows-msvc` e `cargo-xwin` — ou use a pipeline automática no GitHub Actions (`git tag vX.Y.Z && git push origin vX.Y.Z` ou `gh workflow run release.yml`), que gera os binários de **Linux (`ubuntu-22.04`: `.AppImage` + `.deb`)** e **Windows (`windows-latest`: `.exe` per-user)** automaticamente.
 
 ## Compatibilidade Linux (Wayland / Hyprland) e Windows
 

@@ -15,7 +15,9 @@
     "check": "npm run lint:boundaries && npm run typecheck && npm run test",
     "tauri": "tauri",
     "tauri:dev": "tauri dev",
-    "tauri:build": "tauri build"
+    "tauri:build": "tauri build",
+    "build:linux": "node scripts/build-desktop.mjs linux",
+    "build:windows": "node scripts/build-desktop.mjs windows"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.12.5",
