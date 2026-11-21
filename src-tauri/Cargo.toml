@@ -1,6 +1,7 @@
 [package]
 name = "anato-mapping"
 version = "0.1.0"
+license = "MIT"
 description = "Ferramenta desktop para marcação anatômica e exportação JSON — Atlas Anatômico Digital (UFPel)"
 authors = ["UFPel Atlas Anatômico Digital"]
 edition = "2021"

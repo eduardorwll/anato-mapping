@@ -2,6 +2,7 @@
   "name": "anato-mapping",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Ferramenta desktop para marcação anatômica e exportação JSON com coordenadas em porcentagem — Atlas Anatômico Digital (UFPel)",
   "type": "module",
   "scripts": {
